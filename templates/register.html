@@ -1,48 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Register page</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='/navcss.css')}}">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input, .form-group select {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .form-group input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        /* Media queries for responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
 </head>
 <body>
-
-<div class="container">
-    <div class=" row justify-content-center">
-        <div class="col-sm-6 mt-4">
-            <h2>Register form</h2>
-            <form action="/register" method="POST">
-                <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
-                </div>
-                
-                <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                </div>
-
-                <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
-                </div>
-
-                <div class="form-group">
-                <label for="pwd">Role:</label>
-                <input type="text" class="form-control" id="role" placeholder="Enter password" name="role">
-                </div>
-
-                <button type="submit" class="btn btn-dark">Submit</button>
-                <a href="/login" class="btn btn-primary">Login</a>
-            </form>
+    <nav>
+        <div class="logo"><img src="https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/327356230_589491973018292_1512460515022345777_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KoB5oPZhZNsAb7t2nKa&_nc_ht=scontent.fhyd11-2.fna&oh=00_AfDVfV6utkaEKYHCZJ5MyQGrclL01bYWsTJ8b_VCc_gJlQ&oe=66233EDE" height="80"></div>
+        <div>
+        <a href="/login" style="background-color: #ffffff; color: #0d943f; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none;">Login</a>
+        <a href="/register" style="background-color: #ffffff; color: #0d943f; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none;">Register</a>
         </div>
+    </nav>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Role:</label>
+                <select name="role" required>
+                    <option value="">Select Role</option>
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                    <option value="assistant">Assistant</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
     </div>
-  
-</div>
-
 </body>
 </html>

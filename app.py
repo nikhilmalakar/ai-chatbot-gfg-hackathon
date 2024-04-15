@@ -59,6 +59,8 @@ def register():
 
 @app.route('/login',methods=['GET','POST'])
 def login():
+    if 'email' in session and session['email'] != None and session['role'] != None:
+        return redirect('/dashboard')
     if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
@@ -163,6 +165,7 @@ def update_csv():
 @app.route('/logout')
 def logout():   
     session.pop('email',None)
+    session.pop('role',None)
     return redirect('/login')
 
 

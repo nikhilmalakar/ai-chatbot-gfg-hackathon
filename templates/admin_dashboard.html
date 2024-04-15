@@ -17,6 +17,9 @@
             <h2>admin dashboard</h2>
             <p><b>Name: </b> {{user.name }}</p>
             <p><b>Email: </b> {{user.email }}</p>
+            <a href="{{ url_for('download_chat_data') }}" class="btn btn-primary">Chat Backup</a>
+            <a href="{{ url_for('download_performance_metrics') }}" class="btn btn-primary">Performance Metrics</a>
+            <a href="{{ url_for('download_user_data') }}" class="btn btn-primary">User Data</a>
             <a href="/logout" class="btn btn-dark">Logout</a>
         </div>
 

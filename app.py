@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, request, jsonify, request, redirect,session
+from flask import Flask, render_template,  send_file, url_for, request, jsonify, request, redirect,session
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
 import csv
@@ -11,6 +11,9 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(app)
 app.secret_key = 'secret_key'
+
+bot_accuracy = 0
+accuracy_updates = 0
 
 # DATABASE SCHEMA FOR USER
 class User(db.Model):
@@ -52,8 +55,6 @@ def register():
         db.session.commit()
         return redirect('/login')
 
-
-
     return render_template('register.html')
 
 @app.route('/login',methods=['GET','POST'])
@@ -65,6 +66,7 @@ def login():
         user = User.query.filter_by(email=email).first()
         
         if user and user.check_password(password):
+            session['name'] = user.name
             session['email'] = user.email
             session['role'] = user.role
             return redirect('/dashboard')
@@ -80,7 +82,22 @@ def dashboard():
     # FOR USER
     if session['email'] and session['role'] == "user":
         user = User.query.filter_by(email=session['email']).first()
-        return render_template('base.html',user=user)
+        
+        # fieldnames = ['email', 'name']
+        is_present = False
+        with open('./database/userDatabase.csv', mode='r') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                if row and row[0] == session['email']:
+                    is_present = True
+                    break
+    
+        if not is_present:
+            with open('./database/userDatabase.csv', mode='a', newline='\n') as file:
+                writer = csv.writer(file)
+                writer.writerow([session['email'], session['name']])
+            
+        return render_template('base.html', user=session)
     
     # FOR ADMIN
     elif session['email'] and session['role'] == "admin":
@@ -121,8 +138,30 @@ def answer_question(question_id):
 
 # END - ROUTES FOR DOUBT ASSISTANT  FUNCTIONALITY --------------------------------------------------------------
 
+@app.route('/download/chat-database')
+def download_chat_data():
+    file_path = './database/chatDatabase.csv'
+    return send_file(file_path, as_attachment=True)
+
+@app.route('/download/performance-metrics')
+def download_performance_metrics():
+    file_path = './database/feedbackDatabase.csv'
+    return send_file(file_path, as_attachment=True)
+@app.route('/download/user-database')
+def download_user_data():
+    file_path = './database/userDatabase.csv'
+    return send_file(file_path, as_attachment=True)
+
+@app.route('/update_metrics', methods=['POST'])
+def update_csv():
+    data = request.json
+    with open('./database/feedbackDatabase.csv', 'a', newline='\n') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow([data['Timestamp'], session['email'], data['Rating'], bot_accuracy]) 
+
+
 @app.route('/logout')
-def logout():
+def logout():   
     session.pop('email',None)
     return redirect('/login')
 

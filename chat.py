@@ -75,12 +75,13 @@ def get_response(msg, email):
     
     isFound = False
     
-    if prob.item() > 0.75:
+    if prob.item() > 0.90:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 isFound = True
                 response = random.choice(intent['responses'])
-    
+                unable_to_respond_count = 0
+   
     if isFound == False:
         response = "I do not understand..."
          
@@ -90,7 +91,10 @@ def get_response(msg, email):
     # elif prob.item() > 0.5 :
     #     print("Send it to Dount Assistant")
     #     print(msg)
-    add_question(msg)
+    if len(msg) >= 8 and prob.item() >= 0.3 and prob.item() <= 0.90:
+        unable_to_respond_count += 1
+        add_question(msg)
+      
     msg = msg.replace('"', '').replace("'", "")
     response = response.replace('"', '').replace("'", "")
 
@@ -104,12 +108,10 @@ def get_response(msg, email):
     #         return response  # Continue the conversation
     #     else:
     #         return "Thank you for chatting with me. Would you like to provide feedback?"
-    if response == "I do not understand...":
-            unable_to_respond_count += 1
-    else:
-        unable_to_respond_count = 0
+    
+        
     if(unable_to_respond_count > 2) :
-        response = 'Cannot resolve! Our doubt assistant will contact you soon'
+        response = 'Unable to resolve! Our doubt assistant will contact you soon or call us on 1800-123-456.'
         unable_to_respond_count = 0
         
     return response

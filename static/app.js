@@ -10,11 +10,20 @@ class Chatbox{
         this.messages = [];
         this.isChatEnded = false;
         this.isFeedback = false;
+        this.botAccuracy = 0;
+        this.accuracyUpdate = 0;
+
         this.greetingsSet = new Set([
             "Hey :-)",
             "Hello, thanks for visiting",
             "Hi there, what can I do for you?",
-            "Hi there, how can I help?"
+            "Hi there, how can I help?",
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+        ]);
+        this.ratingAvailable = new Set([
+            '1', '2', '3', '4', '5'
         ]);
     }
 
@@ -51,6 +60,7 @@ class Chatbox{
         if(text1 === ""){
             return ;
         }
+
         let userText = text1;
         userText = userText.charAt(0).toUpperCase() + userText.slice(1);
         let msg1 = {name: "User", message: userText}
@@ -74,43 +84,68 @@ class Chatbox{
             let botFeedback = {name : "Sam", message: 'You chose : ' + text1};
             
             
-            console.log(text1.toLowerCase());
+            console.log(this.isChatEnded);
             if(this.isChatEnded && text1.toLowerCase() == "no"){
                 // Feedback hits
                 this.isFeedback = true;
                 this.messages.push(feebackTest);
                 // this.showFeedbackOptions(chatbox);
             }
-            // else if(this.isChatEnded && text1.toLowerCase() == "yes"){
-            //     // Feedback hits
-            //     this.isFeedback = true;
-            //     // this.messages.push(feebackTest);
-            //     // this.showFeedbackOptions(chatbox);
-            // }
+            else if(this.isChatEnded && text1.toLowerCase() == "yes"){    
+                this.messages.push({name : "Sam", message: 'Feel free to ask!'});
+                this.isChatEnded = false;
+                this.isFeedback = false;
+            }
             else if(r.answer != "I do not understand..."){
                 this.messages.push(msg2);
 
-                if (this.greetingsSet.has(r.answer)){}
+                if (this.greetingsSet.has(r.answer)){
+                    this.isChatEnded = false;
+                    this.isFeedback = false;
+                }
                 else {
                     this.messages.push(msg3);
+                    this.isChatEnded = true;
                 }
-                this.isChatEnded = true;
                 this.isFeedback = false;
             }
             else if(this.isFeedback){
-                this.messages.push(botFeedback);
-                this.messages.push({name : "Sam", message: 'Thank you for connecting with us!'});
-                var html = '';
-                const chatmessage = chatbox.querySelector('.chatbox__messages');
-                chatmessage.innerHTML = html;
-                
-                this.isFeedback = false;
+                if(this.ratingAvailable.has(text1)){
+
+                    fetch('/update_metrics', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ Timestamp: new Date(),Rating: text1})
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data.message);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+                    this.messages.push(botFeedback);
+                    this.messages.push({name : "Sam", message: 'Thank you for connecting with us!'});
+                    var html = '';
+                    const chatmessage = chatbox.querySelector('.chatbox__messages');
+                    chatmessage.innerHTML = html;
+                    this.isFeedback = false;
+                }
+                else{
+                    this.messages.push({name : "Sam", message: 'Wrong choice! Try again'});
+                }
             }
             else{
                 this.isFeedback = false;
                 this.isChatEnded = false;
                 this.messages.push(msg2);
             } 
+            
+            console.log(this.isChatEnded);
+            console.log(text1.toLowerCase());
 
             this.updateChatText(chatbox)
             textField.value = ''

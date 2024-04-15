@@ -31,8 +31,8 @@ def add_question(question_text):
             if os.path.getsize('./templates/doubtAssist/questions.csv') == 0:
                 writer.writeheader()
             writer.writerow(new_question)
-            print(new_question)
-            print("added successfully")
+            # print(new_question)
+            # print("added successfully")
     
         
     except Exception as e:

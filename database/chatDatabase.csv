@@ -1,0 +1,208 @@
+Timestamp,UserEmail,Query,Bot Response,Accuracy
+2024-04-13 00:26:06.831296,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 00:26:10.830503,n@gmail.com,how are you,"Hi there, how can I help?",0.9995282888412476
+2024-04-13 00:26:12.636610,n@gmail.com,bye,Have a nice day,0.9971978664398193
+2024-04-13 00:26:13.897345,n@gmail.com,efefce,I do not understand...,0.5025989413261414
+2024-04-13 11:09:35.950100,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:09:37.690145,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:15:03.060646,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:15:04.505695,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:15:04.957335,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:15:05.133139,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:15:28.841262,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:15:31.345539,n@gmail.com,hi,Hey :-),0.999207079410553
+2024-04-13 11:16:30.666535,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:16:34.481618,n@gmail.com,how are you,"Hello, thanks for visiting",0.9995282888412476
+2024-04-13 11:16:40.241253,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 11:16:44.635317,n@gmail.com,yes,I do not understand...,0.5025989413261414
+2024-04-13 11:19:39.415151,n@gmail.com,helo,I do not understand...,0.5025989413261414
+2024-04-13 11:19:43.570485,n@gmail.com,helo,I do not understand...,0.5025989413261414
+2024-04-13 11:20:18.133132,n@gmail.com,helo,I do not understand...,0.5025989413261414
+2024-04-13 11:20:20.102375,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:20:26.462758,n@gmail.com,what are you doing,We have coffee and tea,0.9357606768608093
+2024-04-13 11:24:53.815953,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:24:57.241236,n@gmail.com,hi,"Hi there, how can I help?",0.999207079410553
+2024-04-13 11:24:59.513787,n@gmail.com,done,I do not understand...,0.5025989413261414
+2024-04-13 11:25:42.624772,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:26:11.172200,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:26:13.133946,n@gmail.com,bye,"See you later, thanks for visiting",0.9971978664398193
+2024-04-13 11:26:14.211271,n@gmail.com,sferfer,I do not understand...,0.5025989413261414
+2024-04-13 11:26:50.713554,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:27:30.729743,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:27:33.399285,n@gmail.com,asfewf,I do not understand...,0.5025989413261414
+2024-04-13 11:27:39.047082,n@gmail.com,okay,I do not understand...,0.5025989413261414
+2024-04-13 11:27:42.466501,n@gmail.com,bye,Bye! Come back again soon.,0.9971978664398193
+2024-04-13 11:27:44.479206,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:27:48.003826,n@gmail.com,y,I do not understand...,0.5025989413261414
+2024-04-13 11:27:51.188529,n@gmail.com,bye,"See you later, thanks for visiting",0.9971978664398193
+2024-04-13 11:27:52.253528,n@gmail.com,yes,I do not understand...,0.5025989413261414
+2024-04-13 11:28:27.174704,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:28:29.527533,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 11:28:55.570149,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:29:05.288355,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:29:07.342250,n@gmail.com,hi,"Hello, thanks for visiting",0.999207079410553
+2024-04-13 11:29:17.958145,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:29:43.567224,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:29:59.839134,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:30:53.945467,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:31:05.898665,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:31:27.182323,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:31:27.991783,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:31:30.244201,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:32:06.527202,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:32:07.303513,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:33:15.471369,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:33:17.658526,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:36:39.740268,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:37:44.546411,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:37:46.904652,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:38:08.990017,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:38:56.642713,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:38:58.502232,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:39:30.213723,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:39:31.643860,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:39:42.776047,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:39:45.473715,n@gmail.com,how are you,"Hi there, how can I help?",0.9995282888412476
+2024-04-13 11:39:47.615962,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:40:21.210398,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:40:25.329820,n@gmail.com,how are you,"Hi there, how can I help?",0.9995282888412476
+2024-04-13 11:40:41.707062,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:40:44.216090,n@gmail.com,how are you,Hey :-),0.9995282888412476
+2024-04-13 11:40:49.326166,n@gmail.com,how are you,"Hi there, how can I help?",0.9995282888412476
+2024-04-13 11:40:52.547016,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 11:41:13.651222,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:41:15.303560,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:41:43.659008,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:41:46.495069,n@gmail.com,how are you,"Hi there, what can I do for you?",0.9995282888412476
+2024-04-13 11:41:49.056430,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:42:20.718966,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:42:23.482416,n@gmail.com,how are you,"Hello, thanks for visiting",0.9995282888412476
+2024-04-13 11:42:27.090255,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:42:29.032642,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 11:42:33.773605,n@gmail.com,okay,I do not understand...,0.5025989413261414
+2024-04-13 11:47:33.014234,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:47:36.425397,n@gmail.com,how are you,"Hi there, what can I do for you?",0.9995282888412476
+2024-04-13 11:47:38.487368,n@gmail.com,hahaha,I do not understand...,0.5025989413261414
+2024-04-13 11:52:53.867260,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:52:55.822165,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:53:27.479007,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 11:53:31.338626,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:55:17.554519,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:55:18.593010,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:56:30.205215,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 11:56:31.014688,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:56:34.055298,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 11:56:35.295460,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:56:36.347725,n@gmail.com,na,I do not understand...,0.5025989413261414
+2024-04-13 11:56:45.024143,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 11:56:46.179394,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:58:55.553909,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:58:56.516624,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 11:59:30.893203,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 11:59:34.368866,n@gmail.com,how are you,Hey :-),0.9995282888412476
+2024-04-13 11:59:35.821187,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:06:08.415311,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:06:10.364007,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:07:01.070742,n@gmail.com,Hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:07:02.754806,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:07:21.293456,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:07:22.133693,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:09:00.484418,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 12:09:01.487934,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:09:03.263296,n@gmail.com,done,I do not understand...,0.5025989413261414
+2024-04-13 12:10:40.659523,n@gmail.com,Hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:10:41.746747,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:11:10.269649,n@gmail.com,1,I do not understand...,0.5025989413261414
+2024-04-13 12:14:36.484216,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:14:38.031383,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:14:39.271776,n@gmail.com,5,I do not understand...,0.5025989413261414
+2024-04-13 12:15:53.908099,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:15:54.685377,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:15:55.649925,n@gmail.com,5,I do not understand...,0.5025989413261414
+2024-04-13 12:17:00.902233,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:17:01.624915,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:17:02.261468,n@gmail.com,5,I do not understand...,0.5025989413261414
+2024-04-13 12:17:05.232279,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 12:20:22.596663,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:20:25.425357,n@gmail.com,how are you,"Hi there, what can I do for you?",0.9995282888412476
+2024-04-13 12:20:27.540985,n@gmail.com,hehe,I do not understand...,0.5025989413261414
+2024-04-13 12:21:04.411854,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:21:05.521534,n@gmail.com,hi,"Hi there, what can I do for you?",0.999207079410553
+2024-04-13 12:21:06.871352,n@gmail.com,dsin,I do not understand...,0.5025989413261414
+2024-04-13 12:21:22.659105,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:21:23.472952,n@gmail.com,hi,"Hi there, how can I help?",0.999207079410553
+2024-04-13 12:21:47.165183,n@gmail.com,how are you,Hey :-),0.9995282888412476
+2024-04-13 12:21:49.193375,n@gmail.com,je;,I do not understand...,0.5025989413261414
+2024-04-13 12:21:50.914037,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 12:22:02.414019,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 12:22:03.869564,n@gmail.com,hi,Hey :-),0.999207079410553
+2024-04-13 12:22:05.371403,n@gmail.com,bye,"See you later, thanks for visiting",0.9971978664398193
+2024-04-13 12:23:03.631887,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:24:15.163976,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 12:25:12.692583,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-13 12:26:28.967932,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:26:40.925961,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-13 12:26:42.085554,n@gmail.com,hi,"Hello, thanks for visiting",0.999207079410553
+2024-04-13 12:26:44.918124,n@gmail.com,bye,Bye! Come back again soon.,0.9971978664398193
+2024-04-13 12:33:27.605599,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:33:28.987617,n@gmail.com,hi,"Hi there, what can I do for you?",0.999207079410553
+2024-04-13 12:33:30.950290,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:33:35.526673,n@gmail.com,na,I do not understand...,0.5025989413261414
+2024-04-13 12:33:36.833206,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:39:01.500924,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-13 12:39:05.716392,n@gmail.com,how are you,"Hello, thanks for visiting",0.9995282888412476
+2024-04-13 12:39:09.058027,n@gmail.com,kaise ho,I do not understand...,0.5025989413261414
+2024-04-13 12:39:11.682578,n@gmail.com,kya,I do not understand...,0.5025989413261414
+2024-04-13 12:40:00.331570,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:40:01.419262,n@gmail.com,hi,Hey :-),0.999207079410553
+2024-04-13 12:40:03.758075,n@gmail.com,how are you,"Hello, thanks for visiting",0.9995282888412476
+2024-04-13 12:40:06.279098,n@gmail.com,okay,I do not understand...,0.5025989413261414
+2024-04-13 12:40:07.644946,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:40:08.621429,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:40:14.543068,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:40:15.145427,n@gmail.com,5,I do not understand...,0.5025989413261414
+2024-04-13 12:40:21.181047,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-13 12:40:22.182811,n@gmail.com,hell,I do not understand...,0.5025989413261414
+2024-04-13 12:40:24.609134,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:40:29.234327,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-13 12:40:31.566734,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-13 12:40:33.955670,n@gmail.com,1,I do not understand...,0.5025989413261414
+2024-04-13 12:40:39.134623,n@gmail.com,hwllo,I do not understand...,0.5025989413261414
+2024-04-13 12:40:42.739289,n@gmail.com,yes,I do not understand...,0.5025989413261414
+2024-04-14 05:06:22.975606,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-14 05:06:26.563295,n@gmail.com,how are you,"Hi there, what can I do for you?",0.9995282888412476
+2024-04-14 05:06:35.718748,n@gmail.com,is course fast paced,"Hi there, how can I help?",0.9905080795288086
+2024-04-14 05:06:42.294263,n@gmail.com,price of course,I do not understand...,0.4518388509750366
+2024-04-14 05:06:45.311525,n@gmail.com,okaky,I do not understand...,0.5025989413261414
+2024-04-14 05:06:47.399501,n@gmail.com,bye,Bye! Come back again soon.,0.9971978664398193
+2024-04-14 05:06:54.316191,n@gmail.com,yes,I do not understand...,0.5025989413261414
+2024-04-14 05:06:57.093558,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-14 05:06:59.917310,n@gmail.com,okay,I do not understand...,0.5025989413261414
+2024-04-14 05:07:03.523685,n@gmail.com,no,I do not understand...,0.5025989413261414
+2024-04-14 05:07:04.841350,n@gmail.com,5,I do not understand...,0.5025989413261414
+2024-04-14 05:08:42.555510,n@gmail.com,hi,"Hello, thanks for visiting",0.999207079410553
+2024-04-14 05:08:45.128892,n@gmail.com,hello,"Hi there, what can I do for you?",0.9990711212158203
+2024-04-14 05:08:54.143545,n@gmail.com,kya jua,I do not understand...,0.5025989413261414
+2024-04-14 05:08:55.345108,n@gmail.com,asfa,I do not understand...,0.5025989413261414
+2024-04-14 05:09:31.960684,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-14 05:09:33.112387,n@gmail.com,hi,Hey :-),0.999207079410553
+2024-04-14 05:09:36.764811,n@gmail.com,how are you,"Hello, thanks for visiting",0.9995282888412476
+2024-04-14 05:09:54.318679,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-14 05:09:55.671078,n@gmail.com,hi,Hey :-),0.999207079410553
+2024-04-14 05:09:59.840950,n@gmail.com,how are you,"Hi there, what can I do for you?",0.9995282888412476
+2024-04-14 05:10:38.576507,n@gmail.com,hello,Hey :-),0.9990711212158203
+2024-04-14 05:10:39.782562,n@gmail.com,hi,"Hi there, how can I help?",0.999207079410553
+2024-04-14 05:10:42.082304,n@gmail.com,how are oyu,"Hi there, how can I help?",0.9989917874336243
+2024-04-14 05:11:20.682402,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-14 05:11:21.491678,n@gmail.com,hi,"Hello, thanks for visiting",0.999207079410553
+2024-04-14 05:11:24.013781,n@gmail.com,how are oyu,Hey :-),0.9989917874336243
+2024-04-14 05:12:21.133444,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-14 05:12:21.899863,n@gmail.com,hi,"Hi there, what can I do for you?",0.999207079410553
+2024-04-14 05:12:23.448572,n@gmail.com,haha,I do not understand...,0.5025989413261414
+2024-04-14 05:14:26.318435,n@gmail.com,hello,"Hi there, how can I help?",0.9990711212158203
+2024-04-14 05:14:27.198680,n@gmail.com,hi,"Hello, thanks for visiting",0.999207079410553
+2024-04-14 05:14:55.526784,n@gmail.com,hello,"Hello, thanks for visiting",0.9990711212158203
+2024-04-14 05:14:56.299605,n@gmail.com,hi,"Hi there, what can I do for you?",0.999207079410553
+2024-04-14 05:15:02.228541,n@gmail.com,how are you,"Hi there, how can I help?",0.9995282888412476
+2024-04-14 05:15:07.170636,n@gmail.com,price of course,I do not understand...,0.4518388509750366
+2024-04-14 05:15:09.441860,n@gmail.com,okay,I do not understand...,0.5025989413261414

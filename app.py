@@ -174,10 +174,8 @@ def logout():
 @app.post("/predict")
 def predict():
     text = request.get_json().get("message")
-    # print(text)
     response = get_response(text, session['email'])
     message = {"answer" : response}
-    # print(response)
     return jsonify(message)
 
 if __name__ == "__main__":

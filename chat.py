@@ -113,7 +113,9 @@ def get_response(msg, email):
     if(unable_to_respond_count > 2) :
         response = 'Unable to resolve! Our doubt assistant will contact you soon or call us on 1800-123-456.'
         unable_to_respond_count = 0
-        
+    print(msg)    
+    print(response)
+    # print(response)
     return response
 
 

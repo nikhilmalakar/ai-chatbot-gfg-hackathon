@@ -27,57 +27,219 @@
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "beginneradvancedsuitability",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "dsa suitable beginner advanced users ?",
+        "dsa suitable beginners advanced users?",
+        "beginners advanced users dsa course?",
+        "beginner advanced suitability"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Suitable for beginners and advanced users."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "pacelearning",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "dsa learn pace?",
+        "dsa self paced?",
+        "flexibility learn dsa speed?",
+        "pace learning"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "It's a self-paced course."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "assignmenttypes",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "dsa type assignment ?",
+        "kind tasks dsa course?",
+        "assignments dsa course?",
+        "assignment types"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Coding problems and exercises."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "prerequisites",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "dsa pre-requirements ?",
+        "prerequisites dsa course?",
+        "starting dsa course?",
+        "prerequisites"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Basic understanding of programming concepts."
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "dsa long complete ?",
+        "duration dsa course?",
+        "time complete dsa course?",
+        "duration"
+      ],
+      "responses": [
+        "Completion time varies based on individual pace."
+      ]
+    },
+    {
+      "tag": "cost",
+      "patterns": [
+        "dsa cost ?",
+        "price dsa course?",
+        "expensive dsa course?",
+        "cost"
+      ],
+      "responses": [
+        "$100"
+      ]
+    },
+    {
+      "tag": "doubtsupport",
+      "patterns": [
+        "dsa doubt support ?",
+        "kind doubts dsa course?",
+        "assistance doubts dsa course?",
+        "doubt support"
+      ],
+      "responses": [
+        "Dedicated doubt support forum and live doubt sessions."
+      ]
+    },
+    {
+      "tag": "jobopportunities",
+      "patterns": [
+        "dsa offer placement opportunities ?",
+        "dsa job?",
+        "job placements completing dsa course?",
+        "job opportunities"
+      ],
+      "responses": [
+        "Focused on learning DSA concepts."
+      ]
+    },
+    {
+      "tag": "courseplatform",
+      "patterns": [
+        "dsa platform courses ?",
+        "sets dsa others?",
+        "choose dsa others?",
+        "course platform"
+      ],
+      "responses": [
+        "Comprehensive coverage of DSA topics and interactive exercises."
+      ]
+    },
+    {
+      "tag": "refundpolicy",
+      "patterns": [
+        "dsa money guarantee ?",
+        "don't dsa course?",
+        "refund policy dsa course?",
+        "refund policy"
+      ],
+      "responses": [
+        "30-day money-back guarantee."
+      ]
+    },
+    {
+      "tag": "relevance",
+      "patterns": [
+        "dsa relevant today's market ?",
+        "dsa current job market?",
+        "dsa up-to-date industry standards?",
+        "relevance"
+      ],
+      "responses": [
+        "DSA skills are highly relevant in the tech industry."
+      ]
+    },
+    {
+      "tag": "prerequisiteskills",
+      "patterns": [
+        "dsa good dsa prerequisite ?",
+        "good dsa dsa course?",
+        "strong dsa skills enrolling dsa course?",
+        "prerequisite skills"
+      ],
+      "responses": [
+        "Basic understanding of DSA concepts is helpful but not mandatory."
+      ]
+    },
+    {
+      "tag": "completionprospects",
+      "patterns": [
+        "dsa completing ?",
+        "job prospects completing dsa course?",
+        "earning potential completing dsa course?",
+        "completion prospects"
+      ],
+      "responses": [
+        "Earnings depend on individual skills and job opportunities."
+      ]
+    },
+    {
+      "tag": "emioptions",
+      "patterns": [
+        "dsa pay emi ?",
+        "emi options dsa course?",
+        "pay installments dsa course?",
+        "emi options"
+      ],
+      "responses": [
+        "EMI options available."
+      ]
+    },
+    {
+      "tag": "financialaid",
+      "patterns": [
+        "dsa offer financial aid underprivileged people ?",
+        "assistance financially challenged individuals dsa course?",
+        "scholarships financial aid options dsa course?",
+        "financial aid"
+      ],
+      "responses": [
+        "No information available."
+      ]
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "dsa offer certificate ?",
+        "receive certificate completion dsa course?",
+        "certification dsa course?",
+        "certificate"
+      ],
+      "responses": [
+        "Upon successful completion."
+      ]
+    },
+    {
+      "tag": "testimonials",
+      "patterns": [
+        "dsa testimonials ?",
+        "reviews testimonials dsa course?",
+        "feedback previous students dsa course?",
+        "testimonials"
+      ],
+      "responses": [
+        "Testimonials available on the GeeksforGeeks website."
+      ]
+    },
+    {
+      "tag": "mentorship",
+      "patterns": [
+        "dsa mentor ?",
+        "teaches dsa course?",
+        "instructors dsa course?",
+        "mentorship"
+      ],
+      "responses": [
+        "Experienced DSA instructors."
       ]
     }
   ]

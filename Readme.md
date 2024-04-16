@@ -1,7 +1,9 @@
-**GFG Chatbot SDE Intern Hackathon**
+***GFG Chatbot SDE Intern Hackathon***
+
 GFG Chatbot is an AI-powered conversational assistant designed to provide helpful responses to user queries about a specific course or topic. It utilizes natural language processing techniques and a neural network model to understand user input and generate appropriate responses.
 
 ***Features***
+
 Intent Recognition: The chatbot recognizes the intent behind user queries, allowing it to provide contextually relevant responses.
 Dynamic Response Generation: Responses are generated dynamically based on the input query and the information available in the training data.
 Feedback Mechanism: Includes a feedback mechanism to handle unresolved queries or user dissatisfaction, ensuring continuous improvement over time.
@@ -16,6 +18,7 @@ View Performance Metrics: Track performance metrics such as feedback, accuracy, 
 Download User Data: Admins can download all user data for further analysis and reporting.
 
 ***Installation***
+
 Clone the repository to your local machine:
 
 git clone https://github.com/nikhilmalakar/ai-chatbot-gfg-hackathon
@@ -31,16 +34,19 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 ***Usage***
+
 Training the Chatbot:
 
 Ensure you have your training data in the appropriate format (e.g., intents.json).
 Run the train.py script to train the chatbot model using your data.
 
 ***Running the Chatbot:***
+
 After training, you can interact with the chatbot using the Chat.py script.
 Simply run the script and start typing your questions or queries.
 
 ***Login Details***
+
 User - testuser@gmail.com 1234
 Doubt Assitant - testassistant@gmail.com 1234
 Admin - testadmin@gmail.com 1234

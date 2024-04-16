@@ -245,3 +245,7 @@ Timestamp,UserEmail,Query,Bot Response,Accuracy
 2024-04-16 08:59:00.424721,n@gmail.com,no,I do not understand...,0.6127032041549683
 2024-04-16 08:59:01.332264,n@gmail.com,5,I do not understand...,0.6127032041549683
 2024-04-16 08:59:03.559410,n@gmail.com,hi,Hey :-),0.9999635219573975
+2024-04-16 09:03:04.311554,n@gmail.com,hello,"Hi there, how can I help?",0.9999706745147705
+2024-04-16 09:03:05.362115,n@gmail.com,hi,Hey :-),0.9999635219573975
+2024-04-16 09:03:07.474579,n@gmail.com,bye,Have a nice day,0.999962329864502
+2024-04-16 09:03:10.644098,n@gmail.com,feedback,Testimonials available on the GeeksforGeeks website.,0.9401959776878357

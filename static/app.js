@@ -112,6 +112,13 @@ class Chatbox{
             else if(this.isFeedback){
                 if(this.ratingAvailable.has(text1)){
 
+                    if(text1 === '1'){
+                        this.messages.push({name : "Sam", message: "Regrest! But don't worry our doubt assistant will contact you soon or call us on 1800-123-456 for escalation."});
+                    }
+                    else if(text1 === '2' || text1 === '3'){
+                        this.messages.push({name : "Sam", message: "Provide us feedback to improve"});
+                    }
+                    
                     fetch('/update_metrics', {
                         method: 'POST',
                         headers: {

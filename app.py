@@ -160,6 +160,7 @@ def update_csv():
     with open('./database/feedbackDatabase.csv', 'a', newline='\n') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([data['Timestamp'], session['email'], data['Rating'], bot_accuracy]) 
+    return redirect('/dashboard')
 
 
 @app.route('/logout')

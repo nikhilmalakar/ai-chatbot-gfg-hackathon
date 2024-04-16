@@ -3,12 +3,12 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "hi",
+        "hey",
+        "how are you",
+        "is anyone there?",
+        "hello",
+        "good day"
       ],
       "responses": [
         "Hey :-)",
@@ -19,7 +19,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["bye", "see you later", "goodbye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -29,9 +29,10 @@
     {
       "tag": "beginneradvancedsuitability",
       "patterns": [
-        "dsa suitable beginner advanced users ?",
-        "dsa suitable beginners advanced users?",
-        "beginners advanced users dsa course?",
+        "suitable for beginner or advanced users",
+        "dsa suitable beginner advanced users",
+        "dsa suitable beginners advanced user",
+        "beginners advanced users dsa course",
         "beginner advanced suitability"
       ],
       "responses": [
@@ -41,9 +42,10 @@
     {
       "tag": "pacelearning",
       "patterns": [
-        "dsa learn pace?",
-        "dsa self paced?",
-        "flexibility learn dsa speed?",
+        "can i learn at my own pace",
+        "dsa learn pace",
+        "dsa self paced",
+        "flexibility learn dsa speed",
         "pace learning"
       ],
       "responses": [
@@ -53,9 +55,10 @@
     {
       "tag": "assignmenttypes",
       "patterns": [
-        "dsa type assignment ?",
-        "kind tasks dsa course?",
-        "assignments dsa course?",
+        "what type of assignment do you give",
+        "dsa type assignment",
+        "kind tasks dsa course",
+        "assignments dsa course",
         "assignment types"
       ],
       "responses": [
@@ -65,6 +68,7 @@
     {
       "tag": "prerequisites",
       "patterns": [
+        "what are the pre-requirement for this course",
         "dsa pre-requirements ?",
         "prerequisites dsa course?",
         "starting dsa course?",
@@ -77,6 +81,7 @@
     {
       "tag": "duration",
       "patterns": [
+        "how long does this course take to complete",
         "dsa long complete ?",
         "duration dsa course?",
         "time complete dsa course?",
@@ -89,6 +94,7 @@
     {
       "tag": "cost",
       "patterns": [
+        "how much does the course cost",
         "dsa cost ?",
         "price dsa course?",
         "expensive dsa course?",
@@ -101,6 +107,7 @@
     {
       "tag": "doubtsupport",
       "patterns": [
+        "how is the doubt support",
         "dsa doubt support ?",
         "kind doubts dsa course?",
         "assistance doubts dsa course?",
@@ -113,6 +120,7 @@
     {
       "tag": "jobopportunities",
       "patterns": [
+        "does this course offer placement opportunities also",
         "dsa offer placement opportunities ?",
         "dsa job?",
         "job placements completing dsa course?",
@@ -125,6 +133,7 @@
     {
       "tag": "courseplatform",
       "patterns": [
+        "how is the course different from other platform courses",
         "dsa platform courses ?",
         "sets dsa others?",
         "choose dsa others?",
@@ -137,6 +146,7 @@
     {
       "tag": "refundpolicy",
       "patterns": [
+        "is there any money back guarantee if i did not like the course",
         "dsa money guarantee ?",
         "don't dsa course?",
         "refund policy dsa course?",
@@ -149,6 +159,7 @@
     {
       "tag": "relevance",
       "patterns": [
+        "is this course relevant in todays market",
         "dsa relevant today's market ?",
         "dsa current job market?",
         "dsa up-to-date industry standards?",
@@ -161,6 +172,7 @@
     {
       "tag": "prerequisiteskills",
       "patterns": [
+        "is good dsa a prerequisite for this course",
         "dsa good dsa prerequisite ?",
         "good dsa dsa course?",
         "strong dsa skills enrolling dsa course?",
@@ -173,6 +185,7 @@
     {
       "tag": "completionprospects",
       "patterns": [
+        "how much i can make after completing this course",
         "dsa completing ?",
         "job prospects completing dsa course?",
         "earning potential completing dsa course?",
@@ -185,6 +198,7 @@
     {
       "tag": "emioptions",
       "patterns": [
+        "can i pay in emi for this course",
         "dsa pay emi ?",
         "emi options dsa course?",
         "pay installments dsa course?",
@@ -197,6 +211,7 @@
     {
       "tag": "financialaid",
       "patterns": [
+        "does this course offer financial aid for under-previleged people",
         "dsa offer financial aid underprivileged people ?",
         "assistance financially challenged individuals dsa course?",
         "scholarships financial aid options dsa course?",
@@ -209,6 +224,7 @@
     {
       "tag": "certificate",
       "patterns": [
+        "does this course offer any certificate",
         "dsa offer certificate ?",
         "receive certificate completion dsa course?",
         "certification dsa course?",
@@ -221,6 +237,7 @@
     {
       "tag": "testimonials",
       "patterns": [
+        "where can i get testimonials for this course",
         "dsa testimonials ?",
         "reviews testimonials dsa course?",
         "feedback previous students dsa course?",
@@ -233,6 +250,7 @@
     {
       "tag": "mentorship",
       "patterns": [
+        "who is the mentor for this course",
         "dsa mentor ?",
         "teaches dsa course?",
         "instructors dsa course?",
@@ -240,6 +258,18 @@
       ],
       "responses": [
         "Experienced DSA instructors."
+      ]
+    },
+    {
+      "tag": "courseformat",
+      "patterns": [
+        "is it an online or offline course",
+        "online offline dsa course",
+        "dsa online offline course?",
+        "course format"
+      ],
+      "responses": [
+        "The course is conducted online."
       ]
     }
   ]
